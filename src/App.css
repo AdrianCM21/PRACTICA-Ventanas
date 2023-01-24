@@ -1,3 +1,24 @@
+.ventanas{
+  width: 60vw;
+  height: 40px;
+  display: flex;
+  margin: auto;
+}
+
+.mostrar{
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+  border: 2px solid #000;
+  padding: 40px;
+}
+button{
+  background-color: #fff;
+  color: black;
+  flex: 1;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +56,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+.click{
+  background: #000;
+  color: #fff;
 }
